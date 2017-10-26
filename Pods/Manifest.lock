@@ -1,0 +1,12 @@
+PODS:
+  - OpalImagePicker (1.5.0)
+
+DEPENDENCIES:
+  - OpalImagePicker (~> 1.5.0)
+
+SPEC CHECKSUMS:
+  OpalImagePicker: 0fb2caaa4386524eef1b7979aebebd3ad0a27ef1
+
+PODFILE CHECKSUM: e030c057cb9b7d7c4a36eb85bac7e1734ecbd7f4
+
+COCOAPODS: 1.2.1

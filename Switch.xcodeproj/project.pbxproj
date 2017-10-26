@@ -7,14 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0245181F8B394C00CA3ABD /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0245171F8B394C00CA3ABD /* Photos.framework */; };
+		0E02451C1F8B4DF500CA3ABD /* AlbumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02451A1F8B4DF500CA3ABD /* AlbumListViewController.swift */; };
+		0E02451D1F8B4DF500CA3ABD /* AlbumListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E02451B1F8B4DF500CA3ABD /* AlbumListViewController.xib */; };
+		0E0245201F8B566A00CA3ABD /* AlbumGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E02451E1F8B566A00CA3ABD /* AlbumGridViewController.swift */; };
+		0E0245211F8B566A00CA3ABD /* AlbumGridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E02451F1F8B566A00CA3ABD /* AlbumGridViewController.xib */; };
+		0E0245251F8B5D2100CA3ABD /* PhoroGridCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0245231F8B5D2100CA3ABD /* PhoroGridCollectionCell.swift */; };
+		0E0245261F8B5D2100CA3ABD /* PhoroGridCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0245241F8B5D2100CA3ABD /* PhoroGridCollectionCell.xib */; };
+		0E0245281F8B66FA00CA3ABD /* CollectionViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0245271F8B66FA00CA3ABD /* CollectionViewProtocol.swift */; };
+		0E02452B1F8B6A1400CA3ABD /* PhotoGridAddCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0245291F8B6A1400CA3ABD /* PhotoGridAddCollectionCell.swift */; };
+		0E02452C1F8B6A1400CA3ABD /* PhotoGridAddCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E02452A1F8B6A1400CA3ABD /* PhotoGridAddCollectionCell.xib */; };
+		0E02452F1F8B786200CA3ABD /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E02452E1F8B786200CA3ABD /* OverlayView.xib */; };
 		0EF912751F84B15B00A7DA15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF912741F84B15B00A7DA15 /* AppDelegate.swift */; };
 		0EF912771F84B15B00A7DA15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF912761F84B15B00A7DA15 /* ViewController.swift */; };
 		0EF9127A1F84B15B00A7DA15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF912781F84B15B00A7DA15 /* Main.storyboard */; };
 		0EF9127C1F84B15B00A7DA15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF9127B1F84B15B00A7DA15 /* Assets.xcassets */; };
 		0EF9127F1F84B15B00A7DA15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF9127D1F84B15B00A7DA15 /* LaunchScreen.storyboard */; };
+		346D9D0005B433B7936CF397 /* Pods_Switch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BE0CD0C48B7805516E9E28 /* Pods_Switch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		059423971451AECD300CC113 /* Pods-Switch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Switch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Switch/Pods-Switch.debug.xcconfig"; sourceTree = "<group>"; };
+		0E0245171F8B394C00CA3ABD /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		0E02451A1F8B4DF500CA3ABD /* AlbumListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewController.swift; sourceTree = "<group>"; };
+		0E02451B1F8B4DF500CA3ABD /* AlbumListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumListViewController.xib; sourceTree = "<group>"; };
+		0E02451E1F8B566A00CA3ABD /* AlbumGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumGridViewController.swift; sourceTree = "<group>"; };
+		0E02451F1F8B566A00CA3ABD /* AlbumGridViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumGridViewController.xib; sourceTree = "<group>"; };
+		0E0245231F8B5D2100CA3ABD /* PhoroGridCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoroGridCollectionCell.swift; sourceTree = "<group>"; };
+		0E0245241F8B5D2100CA3ABD /* PhoroGridCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhoroGridCollectionCell.xib; sourceTree = "<group>"; };
+		0E0245271F8B66FA00CA3ABD /* CollectionViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewProtocol.swift; sourceTree = "<group>"; };
+		0E0245291F8B6A1400CA3ABD /* PhotoGridAddCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridAddCollectionCell.swift; sourceTree = "<group>"; };
+		0E02452A1F8B6A1400CA3ABD /* PhotoGridAddCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoGridAddCollectionCell.xib; sourceTree = "<group>"; };
+		0E02452E1F8B786200CA3ABD /* OverlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
 		0EF912711F84B15B00A7DA15 /* Switch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Switch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF912741F84B15B00A7DA15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EF912761F84B15B00A7DA15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +46,8 @@
 		0EF9127B1F84B15B00A7DA15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EF9127E1F84B15B00A7DA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EF912801F84B15B00A7DA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BE0CD0C48B7805516E9E28 /* Pods_Switch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Switch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86C0BC7331A9DA11A2643B9 /* Pods-Switch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Switch.release.xcconfig"; path = "Pods/Target Support Files/Pods-Switch/Pods-Switch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0245181F8B394C00CA3ABD /* Photos.framework in Frameworks */,
+				346D9D0005B433B7936CF397 /* Pods_Switch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E0245191F8B4DCF00CA3ABD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E02451E1F8B566A00CA3ABD /* AlbumGridViewController.swift */,
+				0E02451F1F8B566A00CA3ABD /* AlbumGridViewController.xib */,
+				0E02451A1F8B4DF500CA3ABD /* AlbumListViewController.swift */,
+				0E02451B1F8B4DF500CA3ABD /* AlbumListViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E0245221F8B5CF400CA3ABD /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				0E0245271F8B66FA00CA3ABD /* CollectionViewProtocol.swift */,
+				0E0245231F8B5D2100CA3ABD /* PhoroGridCollectionCell.swift */,
+				0E0245241F8B5D2100CA3ABD /* PhoroGridCollectionCell.xib */,
+				0E0245291F8B6A1400CA3ABD /* PhotoGridAddCollectionCell.swift */,
+				0E02452A1F8B6A1400CA3ABD /* PhotoGridAddCollectionCell.xib */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		0E02452D1F8B783D00CA3ABD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E0245221F8B5CF400CA3ABD /* CollectionView */,
+				0E02452E1F8B786200CA3ABD /* OverlayView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0EF912681F84B15B00A7DA15 = {
 			isa = PBXGroup;
 			children = (
 				0EF912731F84B15B00A7DA15 /* Switch */,
 				0EF912721F84B15B00A7DA15 /* Products */,
+				C9144275A2F0B47DED4B5865 /* Pods */,
+				83167445D0C61E2F70A7DE06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +118,32 @@
 			children = (
 				0EF912741F84B15B00A7DA15 /* AppDelegate.swift */,
 				0EF912761F84B15B00A7DA15 /* ViewController.swift */,
+				0E02452D1F8B783D00CA3ABD /* View */,
+				0E0245191F8B4DCF00CA3ABD /* Controller */,
 				0EF912781F84B15B00A7DA15 /* Main.storyboard */,
 				0EF9127B1F84B15B00A7DA15 /* Assets.xcassets */,
 				0EF9127D1F84B15B00A7DA15 /* LaunchScreen.storyboard */,
 				0EF912801F84B15B00A7DA15 /* Info.plist */,
 			);
 			path = Switch;
+			sourceTree = "<group>";
+		};
+		83167445D0C61E2F70A7DE06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E0245171F8B394C00CA3ABD /* Photos.framework */,
+				81BE0CD0C48B7805516E9E28 /* Pods_Switch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9144275A2F0B47DED4B5865 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				059423971451AECD300CC113 /* Pods-Switch.debug.xcconfig */,
+				E86C0BC7331A9DA11A2643B9 /* Pods-Switch.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EF912831F84B15B00A7DA15 /* Build configuration list for PBXNativeTarget "Switch" */;
 			buildPhases = (
+				E1C93CA19503F740C34403AF /* [CP] Check Pods Manifest.lock */,
 				0EF9126D1F84B15B00A7DA15 /* Sources */,
 				0EF9126E1F84B15B00A7DA15 /* Frameworks */,
 				0EF9126F1F84B15B00A7DA15 /* Resources */,
+				FDE3A186A6C12FBF90B0FDDD /* [CP] Embed Pods Frameworks */,
+				5E0C51D581B464848AEB4FB0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,13 +208,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0245211F8B566A00CA3ABD /* AlbumGridViewController.xib in Resources */,
+				0E02451D1F8B4DF500CA3ABD /* AlbumListViewController.xib in Resources */,
 				0EF9127F1F84B15B00A7DA15 /* LaunchScreen.storyboard in Resources */,
+				0E02452C1F8B6A1400CA3ABD /* PhotoGridAddCollectionCell.xib in Resources */,
 				0EF9127C1F84B15B00A7DA15 /* Assets.xcassets in Resources */,
+				0E02452F1F8B786200CA3ABD /* OverlayView.xib in Resources */,
+				0E0245261F8B5D2100CA3ABD /* PhoroGridCollectionCell.xib in Resources */,
 				0EF9127A1F84B15B00A7DA15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E0C51D581B464848AEB4FB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Switch/Pods-Switch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C93CA19503F740C34403AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDE3A186A6C12FBF90B0FDDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Switch/Pods-Switch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0EF9126D1F84B15B00A7DA15 /* Sources */ = {
@@ -137,7 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EF912771F84B15B00A7DA15 /* ViewController.swift in Sources */,
+				0E02451C1F8B4DF500CA3ABD /* AlbumListViewController.swift in Sources */,
+				0E0245201F8B566A00CA3ABD /* AlbumGridViewController.swift in Sources */,
 				0EF912751F84B15B00A7DA15 /* AppDelegate.swift in Sources */,
+				0E02452B1F8B6A1400CA3ABD /* PhotoGridAddCollectionCell.swift in Sources */,
+				0E0245281F8B66FA00CA3ABD /* CollectionViewProtocol.swift in Sources */,
+				0E0245251F8B5D2100CA3ABD /* PhoroGridCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +415,15 @@
 		};
 		0EF912841F84B15B00A7DA15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059423971451AECD300CC113 /* Pods-Switch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YWN725QK7F;
 				INFOPLIST_FILE = Switch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.liberes.Switch;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.tatsuya.switch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,13 +432,15 @@
 		};
 		0EF912851F84B15B00A7DA15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86C0BC7331A9DA11A2643B9 /* Pods-Switch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YWN725QK7F;
 				INFOPLIST_FILE = Switch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.liberes.Switch;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.tatsuya.switch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
