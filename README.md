@@ -1,0 +1,6 @@
+# SetUp
+
+```
+$ pod install
+
+```
